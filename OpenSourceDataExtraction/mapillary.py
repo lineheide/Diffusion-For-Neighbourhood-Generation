@@ -17,7 +17,7 @@ from tqdm import tqdm  # For displaying progress bars
 # Constants
 TILE_COVERAGE = 'mly1_public'
 TILE_LAYER = "image"
-ACCESS_TOKEN = 'MLY|7103050049807280|fac8bc580e7d684fff83698e8e0defde'  # Insert your Mapillary access token here
+ACCESS_TOKEN = 'xx|xx'  # Insert your Mapillary access token here
 
 def setup_arguments():
     parser = argparse.ArgumentParser(description='Download Mapillary images based on coordinates and show overall progress.')
